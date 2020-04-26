@@ -1,0 +1,30 @@
+.home--main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home--subtitle {
+  font-family: $bodyFontItalic;
+  display: block;
+  color: $textSecondary;
+  margin: 0 0 0.25rem;
+}
+
+.home--advisor {
+  margin: 2rem 0;
+}
+
+.home--bio {
+  max-width: 27rem;
+}
+
+.home--nav-line {
+  font-family: $bodyFontItalic;
+  text-transform: uppercase;
+
+  &:last-of-type {
+    margin: 0;
+  }
+}

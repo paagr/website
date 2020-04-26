@@ -1,0 +1,22 @@
+# SEO
+url: "https://paolomason.net" # the base hostname & protocol for your site, e.g. http://example.com
+title: "Paolo Mason" # Your site's title (e.g., The GitHub Blog, etc.), used as part of the title tag like 'page.title | title'.
+#tagline: "" # A short description (e.g., A blog dedicated to reviewing cat gifs), used as part of the title tag of the home page like 'title | tagline'.
+#description: "" # A longer description used for the description meta tag. Also used as fallback for pages that don't provide their own description and as part of the home page title tag if tagline is not defined.
+author: "Paolo Mason"
+lang: it-IT
+
+baseurl: "" # the subpath of your site, e.g. /blog
+
+sass:
+    sass_dir: _sass
+
+exclude:
+  - Makefile
+  - package.json
+  - yarn.lock
+  - website.todo
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap

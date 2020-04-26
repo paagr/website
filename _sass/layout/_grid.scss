@@ -1,0 +1,15 @@
+.container {
+  margin: 0 auto;
+  max-width: 40rem;
+  padding: 1rem;
+  
+  @include sm-up {
+    padding: 2rem;
+  }
+}
+
+.main--container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}

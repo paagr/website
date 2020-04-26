@@ -1,0 +1,13 @@
+---
+layout: homepage
+pageLayout: index
+title: "Paolo Mason"
+description: "Front-End Developer at SnoozleStudio, accessible and mobile first websites, tooling and design systems."
+---
+
+<span class="home--subtitle">developer</span>
+<h1>{{ site.title }}</h1>
+<p class="home--bio">{{ page.description }}</p>
+{% for item in site.data.nav.home %}
+<p class="home--nav-line"><a href="{{ item.url }}">{{ item.title }}</a></p>
+{% endfor %}
