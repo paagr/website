@@ -8,31 +8,29 @@ durante i giorni lavorativi."
 
 # {{ page.title }}
 
-L'e-mail è l'unico modo affidabile per contattarmi. La controllo ogni ora durante
+L’e-mail è l’unico modo affidabile per contattarmi. La controllo ogni ora durante
 i giorni lavorativi.
 
 <mason.paolo@gmail.com>
 
 ## Perché nessun numero di telefono?
 
-I telefoni sono una delle forme di comunicazione meno efficienti e più invadenti.
-Mentre sono impegnato non riesco a rispondere al telefono e non riesco nemmeno a
-leggere i messaggi di testo.
+Perchè rispondere a chiamate e/o a messaggi istantanei di testo, mentre si è impegnati
+sul lavoro, significa interrompere il flusso lavorativo.
+Chiamate, messaggi e sopratutto messaggi vocali sono forme di comunicazione poco
+efficienti e molto invadenti.
 
-### Usa L'Email
+### Usa sempre l’Email! Puoi scriverla con qualsiasi SmartPhone!
 
-Al posto del telefono, usa sempre la posta elettronica. Ottimizza il flusso di
-lavoro durante la giornata e resta il modo migliore per rimanere in contatto.
-Ricorda che al giorno d'oggi puoi scrivere un'e-mail con qualsiasi SmartPhone.
-La posta elettronica mi fornisce una "raccolta" di informazioni che possiamo
-utilizzare in seguito per ricostruire ciò che sta accadendo.
+Invece di chiamare o scrivere messaggi istantanei, usa sempre la posta elettronica:
+ottimizza il flusso di lavoro durante la giornata ed è il modo migliore per rimanere
+in contatto. La posta elettronica, inoltre, raccoglie tutte le informazioni, così
+da poterle consultare in seguito, in qualsiasi momento, per ricostruire cronologicamente
+la vicenda lavorativa.
 
 ### Richiedi un appuntamento
 
-Generalmente, ogni volta che dobbiamo comunicare, dovrebbe avvenire faccia a faccia.
-Possiamo fare più in 30 minuti di conversazione di quanto si possa mai fare per telefono.
-
-### Ma se devi assolutamente...
-
-Se il telefono è letteralmente l'unico modo con cui puoi comunicare con me,
-allora posso fissare un appuntamento per chiamarti se ne richiedi uno tramite e-mail.
+Generalmente è molto più proficua una conversazione dal vivo di 30 minuti, rispetto
+a quanto si possa ottenere parlando al telefono.
+Se il telefono dovesse letteralmente essere l’unico mezzo di comunicazione a disposizione,
+allora possiamo fissare, sempre tramite mail, un appuntamento telefonico.

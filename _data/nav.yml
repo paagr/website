@@ -3,8 +3,8 @@ home:
     url: contatti.html
   # - title: learning
   #   url: learning.html
-  # - title: credits
-  #   url: credits.html
+  - title: credits
+    url: credits.html
   # - title: articoli
   #   url: articoli.html
 
@@ -15,8 +15,8 @@ top:
     url: contatti.html
   # - title: learning
   #   url: learning.html
-  # - title: credits
-  #   url: credits.html
+  - title: credits
+    url: credits.html
   # - title: articoli
   #   url: articoli.html
 
