@@ -1,24 +1,20 @@
 home:
   - title: contatti
-    url: contatti.html
-  # - title: learning
-  #   url: learning.html
+    url: /contatti/
+  - title: learning
+    url: /learning/
   - title: credits
-    url: credits.html
-  # - title: articoli
-  #   url: articoli.html
+    url: /credits/
 
 top:
   - title: Paolo Mason
-    url: index.html
+    url: /index.html
   - title: contatti
-    url: contatti.html
-  # - title: learning
-  #   url: learning.html
+    url: /contatti/
+  - title: learning
+    url: /learning/
   - title: credits
-    url: credits.html
-  # - title: articoli
-  #   url: articoli.html
+    url: /credits/
 
 bottom:
   - title: GitHub
@@ -26,4 +22,4 @@ bottom:
   - title: Twitter
     url: https://twitter.com/paolomasonnet
   - title: paolomason.net
-    url: index.html
+    url: /index.html

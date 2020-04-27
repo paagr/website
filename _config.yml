@@ -8,6 +8,8 @@ lang: it-IT
 
 baseurl: "" # the subpath of your site, e.g. /blog
 
+permalink: /:categories/:title/
+
 sass:
     sass_dir: _sass
 
