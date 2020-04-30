@@ -1,16 +1,12 @@
 home:
   - title: contatti
     url: contatti.html
-  - title: credits
-    url: credits.html
 
 top:
   - title: Paolo Mason
     url: /index.html
   - title: contatti
     url: contatti.html
-  - title: credits
-    url: credits.html
 
 bottom:
   - title: GitHub
