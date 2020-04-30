@@ -8,6 +8,10 @@ lang: it-IT
 
 baseurl: "" # the subpath of your site, e.g. /blog
 
+permalink: date
+
+snoozlelink: "https://snoozle.studio"
+
 sass:
     sass_dir: _sass
 
@@ -16,6 +20,8 @@ exclude:
   - package.json
   - yarn.lock
   - website.todo
+  - LICENSE
+  - README.md
 
 plugins:
   - jekyll-seo-tag

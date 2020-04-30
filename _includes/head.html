@@ -4,10 +4,14 @@
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
 
   {% if page.pageLayout == "index" %}
-    {% seo title=false %}
-    <title>{{ page.title }}</title>
+  {% seo title=false %}
+  <title>{{ page.title }}</title>
   {% else %}
-    {% seo %}
+  {% seo %}
+  {% endif %}
+
+  {% if jekyll.environment == "production" %}
+  {% include analytics.html %}
   {% endif %}
 
 </head>
