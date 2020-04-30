@@ -1,9 +1,10 @@
 .container {
   margin: 0 auto;
-  max-width: 40rem;
   padding: 1rem;
+  max-width: 75%;
   
   @include sm-up {
+    max-width: 40rem;
     padding: 2rem;
   }
 }
