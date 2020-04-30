@@ -1,24 +1,16 @@
 home:
   - title: contatti
     url: contatti.html
-  # - title: learning
-  #   url: learning.html
   - title: credits
     url: credits.html
-  # - title: articoli
-  #   url: articoli.html
 
 top:
   - title: Paolo Mason
     url: index.html
   - title: contatti
     url: contatti.html
-  # - title: learning
-  #   url: learning.html
   - title: credits
     url: credits.html
-  # - title: articoli
-  #   url: articoli.html
 
 bottom:
   - title: GitHub

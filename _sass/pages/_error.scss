@@ -1,0 +1,10 @@
+.error--nav {
+  .nav--link {
+    &:first-child {
+      background-color: yellow;
+        color: $textColor;
+      }
+  }
+}
+
+

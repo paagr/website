@@ -4,50 +4,52 @@ nav {
   align-items: flex-end;
   max-width: 85rem;
   padding: 1rem;
-
+  
   @include sm-up {
     padding: 2rem;
   }
+}
 
-  .nav--line {
-    font-family: $bodyFontItalic;
-    margin: 0 0 1rem;
-    text-transform: uppercase;
+.error {
+  align-items: flex-start;
+  padding: 0;
+}
+
+.nav--line {
+  font-family: $bodyFontItalic;
+  margin: 0 0 1rem;
+  text-transform: uppercase;
+
+  .nav--link {
+    color: $accentColor;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.nav--top,
+.nav--error {
+  &:first-child {
+    .nav--link {
+      color: $textColor;
+    }
+  }
+
+  &:last-child {
+    margin: 0;
+  }
+}
+
+.nav--bottom {
+  &:last-child {
+    margin: 0;
 
     .nav--link {
-      color: $accentColor;
-      text-decoration: none;
-      text-decoration-skip-ink: auto;
-
-      &:hover {
-        text-decoration: underline;
-      }
+      color: $textColor;
     }
   }
-
-  .nav--top {
-    &:first-child {
-      .nav--link {
-        color: $textColor;
-      }
-    }
-
-    &:last-child {
-      margin: 0;
-    }
-  }
-
-  .nav--bottom {
-    &:last-child {
-      margin: 0;
-
-      .nav--link {
-        color: $textColor;
-      }
-    }
-  }
-
-
-
-
 }
