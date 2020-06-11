@@ -1,10 +1,14 @@
 home:
   - title: contatti
     url: contatti.html
+  - title: test
+    url: test.html
 
 top:
   - title: Paolo Mason
     url: /index.html
+  - title: test
+    url: test.html
   - title: contatti
     url: contatti.html
 

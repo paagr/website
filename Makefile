@@ -21,6 +21,7 @@ update: $(PROJECT_DEPS)
 include-yarn-deps:
 	mkdir -p $(VENDOR_DIR)
 	# cp node_modules/darkmode-js/lib/darkmode-js.min.js $(VENDOR_DIR)
+	cp node_modules/p5/lib/p5.min.js $(VENDOR_DIR)
 
 build-deps: clean install include-yarn-deps
 
