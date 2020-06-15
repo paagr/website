@@ -1,3 +1,5 @@
+const { Linter } = require("eslint");
+
 class Walker {
   constructor(x,y){
     this.pos = createVector(x, y);
