@@ -10,7 +10,11 @@
   {% seo %}
   {% endif %}
 
+  {% comment %} Google Analytics {% endcomment %}
   {% if jekyll.environment == "production" %}
   {% include analytics.html %}
   {% endif %}
+
+  {% comment %} Glitch canvas {% endcomment %}
+  <script src="{{'/assets/vendor/glitch-canvas-browser.min.js' | relative_url }}"></script>
 </head>

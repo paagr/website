@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Contatti"
 description: "L'e-mail è l'unico modo affidabile per contattarmi. La controllo ogni ora
 durante i giorni lavorativi."

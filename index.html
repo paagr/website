@@ -1,14 +1,68 @@
 ---
-layout: homepage
+layout: default
 title: "Paolo Mason"
 description: "Front-End Developer at SnoozleStudio, accessible and mobile first websites, tooling and design systems."
 ---
 
-<span class="home--subtitle">developer</span>
+<p>developer</p>
 <h1>{{ site.title }}</h1>
-<p class="home--bio">
-  Front-End Developer at <a href="{{ site.snoozlelink }}" target="_blank" rel="noopener noreferrer"><span class="bold">Snoozle</span>Studio</a>, accessible and mobile first websites, tooling and design systems.
+<p>
+  Front-End Developer at <a href="#" target="_blank" rel="noopener noreferrer"><span>Snoozle</span>Studio</a>,
+  accessible and mobile first websites, tooling and design systems.
 </p>
-{% for item in site.data.nav.home %}
-<p class="home--nav-line"><a href="{{ item.url }}">{{ item.title }}</a></p>
-{% endfor %}
+
+
+
+<h1>toDataURL</h1>
+<div id="img-container"></div>
+<h1>toImageData</h1>
+<div id="canvas-container"></div>
+<script>
+  // import glitch from '../dist/glitch-canvas-browser.es6.js';
+  /*global glitch, devicePixelRatio*/
+  var imagePath = 'assets/img/lincoln.jpg';
+
+  var imgContainerEl = document.getElementById('img-container');
+  var canvasContainerEl = document.getElementById('canvas-container');
+
+  var params = {
+    amount: parseInt((Math.random() * 99), 10),
+    iterations: parseInt((Math.random() * 99), 10),
+    quality: parseInt((Math.random() * 99), 10),
+    seed: parseInt((Math.random() * 99), 10)
+  };
+
+  loadImage(imagePath, function (img) {
+    glitch(params)
+      .fromImage(img)
+      .toDataURL()
+      .then(function (dataURL) {
+        var imageEl = new Image();
+        imageEl.src = dataURL;
+        imgContainerEl.appendChild(imageEl);
+      });
+
+    glitch(params)
+      .fromImage(img)
+      .toImageData()
+      .then(function (imageData) {
+        var canvasEl = document.createElement('canvas');
+        canvasEl.width = imageData.width;
+        canvasEl.height = imageData.height;
+        canvasEl.style.width = imageData.width + 'px';
+        var ctx = canvasEl.getContext('2d');
+        canvasContainerEl.appendChild(canvasEl);
+        ctx.putImageData(imageData, 0, 0);
+      });
+  });
+
+  function loadImage(src, callback) {
+    var imageEl = new Image();
+
+    imageEl.onload = function () {
+      callback(imageEl);
+    };
+
+    imageEl.src = src;
+  }
+</script>

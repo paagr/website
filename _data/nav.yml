@@ -1,21 +1,5 @@
-home:
-  - title: contatti
-    url: contatti.html
-  - title: test
-    url: test.html
-
-top:
-  - title: Paolo Mason
+nav:
+  - title: home
     url: /index.html
-  - title: test
-    url: test.html
   - title: contatti
-    url: contatti.html
-
-bottom:
-  - title: GitHub
-    url: https://github.com/paagr
-  - title: Twitter
-    url: https://twitter.com/paolomasonnet
-  - title: paolomason.net
-    url: /index.html
+    url: /contatti.html

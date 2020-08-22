@@ -20,8 +20,12 @@ update: $(PROJECT_DEPS)
 
 include-yarn-deps:
 	mkdir -p $(VENDOR_DIR)
-	# cp node_modules/darkmode-js/lib/darkmode-js.min.js $(VENDOR_DIR)
-	cp node_modules/p5/lib/p5.min.js $(VENDOR_DIR)
+	cp node_modules/jquery/dist/jquery.min.js $(VENDOR_DIR)
+	cp node_modules/popper.js/dist/umd/popper.min.js $(VENDOR_DIR)
+	cp node_modules/popper.js/dist/umd/popper.min.js.map $(VENDOR_DIR)
+	cp node_modules/bootstrap/dist/js/bootstrap.min.js $(VENDOR_DIR)
+	cp node_modules/bootstrap/dist/js/bootstrap.min.js.map $(VENDOR_DIR)
+	cp node_modules/glitch-canvas/dist/glitch-canvas-browser.min.js $(VENDOR_DIR)
 
 build-deps: clean install include-yarn-deps
 

@@ -6,14 +6,16 @@
 
 @import "layout/navigation";
 @import "layout/grid";
+@import "layout/header";
+@import "layout/footer";
+@import "layout/sidebar";
+@import "layout/forms";
 
-@import "components/blockquote";
+@import "components/cover";
 
 @import "pages/home";
 @import "pages/post";
+@import "pages/contact";
 
-body {
-  background: $bgColor;
-  color: $textColor;
-  font-family: $bodyFont;
-}
+
+@import "bootstrap/scss/bootstrap";
